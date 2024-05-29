@@ -1,0 +1,68 @@
+/* src/LoginPage.css */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  margin-bottom: 1em;
+}
+
+label {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+button {
+  padding: 0.5em;
+  font-size: 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.loginFormBox{
+    border: 1px solid rgb(72, 62, 44);
+    width: 400px;
+    height: fit-content;
+background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding-bottom: 30px;
+}
+
+body {
+    background: rgb(234, 200, 235);
+    background: linear-gradient(0deg, rgb(147 116 148) 0%, rgba(217, 230, 232, 1) 100%);
+}
+
+#username,
+#email,
+#password {
+    border-radius: 10px;
+    border: 1px solid white;
+    background: none;
+}
+
+.login-btn{
+width: fit-content;
+background: none;
+border: 1px solid white;
+margin-left: auto;
+margin-right: auto;
+}
